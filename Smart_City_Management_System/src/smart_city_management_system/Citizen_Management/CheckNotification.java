@@ -41,14 +41,14 @@ public class CheckNotification extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("CHECK NOTIFICATION HERE");
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");
@@ -76,6 +76,7 @@ public class CheckNotification extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(table);
 
+        jButton1.setBackground(new java.awt.Color(255, 204, 204));
         jButton1.setText("Delete");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

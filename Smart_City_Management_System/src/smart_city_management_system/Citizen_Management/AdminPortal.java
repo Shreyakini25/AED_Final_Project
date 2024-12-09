@@ -32,16 +32,16 @@ public class AdminPortal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("WELCOME TO ADMIN PORTAL");
 
         Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/Citizen Management.png"))); // NOI18N
 
-        registerCitizen.setBackground(new java.awt.Color(255, 255, 204));
+        registerCitizen.setBackground(new java.awt.Color(255, 204, 204));
         registerCitizen.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         registerCitizen.setForeground(new java.awt.Color(102, 0, 0));
         registerCitizen.setText("Register Citizen Information");
@@ -51,7 +51,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        viewFeedBacks.setBackground(new java.awt.Color(255, 255, 204));
+        viewFeedBacks.setBackground(new java.awt.Color(255, 204, 204));
         viewFeedBacks.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         viewFeedBacks.setForeground(new java.awt.Color(102, 0, 0));
         viewFeedBacks.setText("View Feedbacks");
@@ -61,7 +61,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        sendNotification.setBackground(new java.awt.Color(255, 255, 204));
+        sendNotification.setBackground(new java.awt.Color(255, 204, 204));
         sendNotification.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         sendNotification.setForeground(new java.awt.Color(102, 0, 0));
         sendNotification.setText("Send Notification");
@@ -71,7 +71,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");

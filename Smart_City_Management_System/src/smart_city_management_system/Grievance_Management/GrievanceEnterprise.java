@@ -127,6 +127,8 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
     private void btnGarbageCollectionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGarbageCollectionActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(this, "Redirecting to Garbage Collection Complaints...");
+        this.dispose();
+        new GarbageCollectionUser().setVisible(true);
         
     }//GEN-LAST:event_btnGarbageCollectionActionPerformed
 

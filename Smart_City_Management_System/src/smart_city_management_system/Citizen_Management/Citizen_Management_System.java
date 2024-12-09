@@ -37,16 +37,16 @@ public class Citizen_Management_System extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.CardLayout());
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("WELCOME TO CITIZEN  MANAGEMENT SYSTEM");
 
         Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/Citizen Management.png"))); // NOI18N
 
-        admin.setBackground(new java.awt.Color(255, 255, 204));
+        admin.setBackground(new java.awt.Color(255, 204, 204));
         admin.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         admin.setForeground(new java.awt.Color(102, 0, 0));
         admin.setText("Admin");
@@ -56,7 +56,7 @@ public class Citizen_Management_System extends javax.swing.JFrame {
             }
         });
 
-        user.setBackground(new java.awt.Color(255, 255, 204));
+        user.setBackground(new java.awt.Color(255, 204, 204));
         user.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         user.setForeground(new java.awt.Color(102, 0, 0));
         user.setText("User");
@@ -66,7 +66,7 @@ public class Citizen_Management_System extends javax.swing.JFrame {
             }
         });
 
-        exit.setBackground(new java.awt.Color(255, 255, 204));
+        exit.setBackground(new java.awt.Color(255, 204, 204));
         exit.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         exit.setForeground(new java.awt.Color(102, 0, 0));
         exit.setText("Exit");
@@ -76,7 +76,7 @@ public class Citizen_Management_System extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");

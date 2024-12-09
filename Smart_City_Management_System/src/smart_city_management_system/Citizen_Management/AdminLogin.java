@@ -40,6 +40,9 @@ public class AdminLogin extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new java.awt.CardLayout());
 
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel1.setForeground(new java.awt.Color(204, 204, 255));
+
         btnlogin.setText("Login");
         btnlogin.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

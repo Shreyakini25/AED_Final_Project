@@ -13,6 +13,7 @@ import javax.swing.DefaultListModel;
  */
 public class StreetLightAdmin extends javax.swing.JFrame {
     private DefaultListModel<String> complaintModel;
+    private DefaultListModel<String> garbageComplaintModel;
     /**
      * Creates new form StreetLightAdmin
      */
@@ -37,6 +38,10 @@ public class StreetLightAdmin extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         complaintList = new javax.swing.JList<>();
         back = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        garbageComplaintList = new javax.swing.JList<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -58,6 +63,12 @@ public class StreetLightAdmin extends javax.swing.JFrame {
             }
         });
 
+        jLabel2.setText("GARBAGE COLLECTION COMPLAINTS ADMIN PANEL");
+
+        jScrollPane3.setViewportView(garbageComplaintList);
+
+        jScrollPane4.setViewportView(jScrollPane3);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -65,25 +76,34 @@ public class StreetLightAdmin extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
                         .addComponent(back)
-                        .addGap(30, 30, 30)
-                        .addComponent(jLabel1))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(31, 31, 31)
-                        .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 372, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(59, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 372, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel1)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 286, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 380, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel1)
                     .addComponent(back))
-                .addGap(21, 21, 21)
+                .addGap(24, 24, 24)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(279, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel2)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(129, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -102,6 +122,8 @@ public class StreetLightAdmin extends javax.swing.JFrame {
     private void initializeModel() {
         complaintModel = new DefaultListModel<>();
         complaintList.setModel(complaintModel);
+        garbageComplaintModel = new DefaultListModel<>();
+        garbageComplaintList.setModel(garbageComplaintModel);
     }
     private void backActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backActionPerformed
         // TODO add your handling code here:
@@ -143,6 +165,14 @@ public class StreetLightAdmin extends javax.swing.JFrame {
         } catch (IOException e) {
             complaintModel.addElement("Error loading complaints or no complaints found.");
         }
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/resources/garbage_complaints.txt"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                garbageComplaintModel.addElement(line);
+            }
+        } catch (IOException e) {
+            garbageComplaintModel.addElement("Error loading garbage complaints or no complaints found.");
+        }
     }
     /**
      * @param args the command line arguments
@@ -182,9 +212,13 @@ public class StreetLightAdmin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton back;
     private javax.swing.JList<String> complaintList;
+    private javax.swing.JList<String> garbageComplaintList;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
     // End of variables declaration//GEN-END:variables
 }
