@@ -39,7 +39,7 @@
     <Container class="javax.swing.JPanel" name="jPanel3">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="0" green="0" red="66" type="rgb"/>
+          <Color blue="ff" green="cc" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
@@ -47,9 +47,7 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                  <Component id="Image2" min="-2" pref="379" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="418" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                       <Component id="viewCitizen" alignment="0" max="32767" attributes="0"/>
                       <Component id="provideFeedback" alignment="0" max="32767" attributes="0"/>
@@ -74,22 +72,13 @@
                       <Component id="title2" min="-2" max="-2" attributes="0"/>
                       <Component id="back" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Component id="Image2" max="32767" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
-                          <Component id="viewCitizen" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                          <Component id="provideFeedback" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
-                          <Component id="checkNotification" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                      </Group>
-                  </Group>
+                  <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  <Component id="viewCitizen" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="provideFeedback" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  <Component id="checkNotification" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="252" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -104,22 +93,15 @@
               <Font name="Rockwell" size="18" style="1"/>
             </Property>
             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+              <Color blue="66" green="66" red="ff" type="rgb"/>
             </Property>
             <Property name="text" type="java.lang.String" value="WELCOME TO USER PORTAL"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="Image2">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/smart_city_management_system/Citizen Management.png"/>
-            </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="viewCitizen">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Black" size="18" style="1"/>
@@ -136,7 +118,7 @@
         <Component class="javax.swing.JButton" name="provideFeedback">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Black" size="18" style="1"/>
@@ -153,7 +135,7 @@
         <Component class="javax.swing.JButton" name="checkNotification">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Black" size="18" style="1"/>
@@ -170,7 +152,7 @@
         <Component class="javax.swing.JButton" name="back">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
             </Property>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Segoe UI Black" size="12" style="1"/>

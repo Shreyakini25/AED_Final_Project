@@ -28,7 +28,6 @@ public class userPortal extends javax.swing.JFrame {
 
         jPanel3 = new javax.swing.JPanel();
         title2 = new javax.swing.JLabel();
-        Image2 = new javax.swing.JLabel();
         viewCitizen = new javax.swing.JButton();
         provideFeedback = new javax.swing.JButton();
         checkNotification = new javax.swing.JButton();
@@ -36,16 +35,14 @@ public class userPortal extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("WELCOME TO USER PORTAL");
 
-        Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/Citizen Management.png"))); // NOI18N
-
-        viewCitizen.setBackground(new java.awt.Color(255, 255, 204));
+        viewCitizen.setBackground(new java.awt.Color(255, 204, 204));
         viewCitizen.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         viewCitizen.setForeground(new java.awt.Color(102, 0, 0));
         viewCitizen.setText("View Citizen Information");
@@ -55,7 +52,7 @@ public class userPortal extends javax.swing.JFrame {
             }
         });
 
-        provideFeedback.setBackground(new java.awt.Color(255, 255, 204));
+        provideFeedback.setBackground(new java.awt.Color(255, 204, 204));
         provideFeedback.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         provideFeedback.setForeground(new java.awt.Color(102, 0, 0));
         provideFeedback.setText("Provide Feedback");
@@ -65,7 +62,7 @@ public class userPortal extends javax.swing.JFrame {
             }
         });
 
-        checkNotification.setBackground(new java.awt.Color(255, 255, 204));
+        checkNotification.setBackground(new java.awt.Color(255, 204, 204));
         checkNotification.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         checkNotification.setForeground(new java.awt.Color(102, 0, 0));
         checkNotification.setText("Check Notification");
@@ -75,7 +72,7 @@ public class userPortal extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");
@@ -90,9 +87,7 @@ public class userPortal extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(Image2, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGap(418, 418, 418)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(viewCitizen, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(provideFeedback, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -112,19 +107,13 @@ public class userPortal extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(title2)
                     .addComponent(back))
-                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(Image2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addContainerGap())
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(81, 81, 81)
-                        .addComponent(viewCitizen)
-                        .addGap(43, 43, 43)
-                        .addComponent(provideFeedback)
-                        .addGap(43, 43, 43)
-                        .addComponent(checkNotification)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addGap(81, 81, 81)
+                .addComponent(viewCitizen)
+                .addGap(43, 43, 43)
+                .addComponent(provideFeedback)
+                .addGap(43, 43, 43)
+                .addComponent(checkNotification)
+                .addContainerGap(252, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -203,7 +192,6 @@ public class userPortal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Image2;
     private javax.swing.JButton back;
     private javax.swing.JButton checkNotification;
     private javax.swing.JPanel jPanel3;
