@@ -30,14 +30,14 @@ public class AddDoctor extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("ADD DOCTOR HERE");
 
-        Add.setBackground(new java.awt.Color(255, 255, 204));
+        Add.setBackground(new java.awt.Color(255, 204, 204));
         Add.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         Add.setForeground(new java.awt.Color(102, 0, 0));
         Add.setText("ADD");
@@ -47,7 +47,7 @@ public class AddDoctor extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");
@@ -58,7 +58,7 @@ public class AddDoctor extends javax.swing.JFrame {
         });
 
         IDTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        IDTitle.setForeground(new java.awt.Color(255, 255, 204));
+        IDTitle.setForeground(new java.awt.Color(255, 102, 102));
         IDTitle.setText("Enter Doctor Id Number :");
 
         IdInput.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +68,7 @@ public class AddDoctor extends javax.swing.JFrame {
         });
 
         NameTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        NameTitle.setForeground(new java.awt.Color(255, 255, 204));
+        NameTitle.setForeground(new java.awt.Color(255, 102, 102));
         NameTitle.setText("Enter Doctor Name :");
 
         NameInput.addActionListener(new java.awt.event.ActionListener() {
@@ -78,7 +78,7 @@ public class AddDoctor extends javax.swing.JFrame {
         });
 
         PhoneTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        PhoneTitle.setForeground(new java.awt.Color(255, 255, 204));
+        PhoneTitle.setForeground(new java.awt.Color(255, 102, 102));
         PhoneTitle.setText("Enter Doctor Phone Number :");
 
         PhoneInput.addActionListener(new java.awt.event.ActionListener() {
@@ -94,7 +94,7 @@ public class AddDoctor extends javax.swing.JFrame {
         });
 
         SpecialityTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        SpecialityTitle.setForeground(new java.awt.Color(255, 255, 204));
+        SpecialityTitle.setForeground(new java.awt.Color(255, 102, 102));
         SpecialityTitle.setText("Enter Doctor's Speciality :");
 
         ExperienceInput.addActionListener(new java.awt.event.ActionListener() {
@@ -104,7 +104,7 @@ public class AddDoctor extends javax.swing.JFrame {
         });
 
         ExperienceTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        ExperienceTitle.setForeground(new java.awt.Color(255, 255, 204));
+        ExperienceTitle.setForeground(new java.awt.Color(255, 102, 102));
         ExperienceTitle.setText("Enter Doctor Experience ( year) :");
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);

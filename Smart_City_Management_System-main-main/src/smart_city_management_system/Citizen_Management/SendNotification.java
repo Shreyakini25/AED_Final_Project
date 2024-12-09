@@ -51,7 +51,7 @@ public class SendNotification extends javax.swing.JFrame {
         title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("SEND NOTIFICATION HERE");
 
-        register.setBackground(new java.awt.Color(255, 255, 204));
+        register.setBackground(new java.awt.Color(255, 204, 204));
         register.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         register.setForeground(new java.awt.Color(102, 0, 0));
         register.setText("Register");
@@ -61,7 +61,7 @@ public class SendNotification extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 255, 204));
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");
@@ -82,7 +82,7 @@ public class SendNotification extends javax.swing.JFrame {
         });
 
         NotificationTitle.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        NotificationTitle.setForeground(new java.awt.Color(255, 255, 204));
+        NotificationTitle.setForeground(new java.awt.Color(255, 102, 102));
         NotificationTitle.setText("Enter Notification :");
 
         NotificationInput.addActionListener(new java.awt.event.ActionListener() {

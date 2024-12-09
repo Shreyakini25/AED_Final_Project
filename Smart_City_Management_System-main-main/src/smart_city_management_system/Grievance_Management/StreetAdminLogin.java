@@ -43,12 +43,15 @@ public class StreetAdminLogin extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
+        lblTitle.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
+        lblTitle.setForeground(new java.awt.Color(255, 102, 102));
         lblTitle.setText("ADMIN LOGIN");
 
         lblUsername.setText("Username:");
 
         lblPassword.setText("Password:");
 
+        login.setBackground(new java.awt.Color(255, 204, 204));
         login.setText("Login");
         login.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,6 +59,7 @@ public class StreetAdminLogin extends javax.swing.JFrame {
             }
         });
 
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setText("back");
         back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -105,7 +109,7 @@ public class StreetAdminLogin extends javax.swing.JFrame {
                     .addComponent(txtPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addComponent(login)
-                .addContainerGap(191, Short.MAX_VALUE))
+                .addContainerGap(188, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

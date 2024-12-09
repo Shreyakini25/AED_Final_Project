@@ -26,6 +26,7 @@ public class AdminPortal extends javax.swing.JFrame {
 
         jPanel3 = new javax.swing.JPanel();
         title2 = new javax.swing.JLabel();
+        Image2 = new javax.swing.JLabel();
         registerCitizen = new javax.swing.JButton();
         viewFeedBacks = new javax.swing.JButton();
         sendNotification = new javax.swing.JButton();
@@ -40,7 +41,9 @@ public class AdminPortal extends javax.swing.JFrame {
         title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("WELCOME TO ADMIN PORTAL");
 
-        registerCitizen.setBackground(new java.awt.Color(255, 204, 204));
+        Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/Citizen Management.png"))); // NOI18N
+
+        registerCitizen.setBackground(new java.awt.Color(255, 255, 204));
         registerCitizen.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         registerCitizen.setForeground(new java.awt.Color(102, 0, 0));
         registerCitizen.setText("Register Citizen Information");
@@ -50,7 +53,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        viewFeedBacks.setBackground(new java.awt.Color(255, 204, 204));
+        viewFeedBacks.setBackground(new java.awt.Color(255, 255, 204));
         viewFeedBacks.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         viewFeedBacks.setForeground(new java.awt.Color(102, 0, 0));
         viewFeedBacks.setText("View Feedbacks");
@@ -60,7 +63,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        sendNotification.setBackground(new java.awt.Color(255, 204, 204));
+        sendNotification.setBackground(new java.awt.Color(255, 255, 204));
         sendNotification.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         sendNotification.setForeground(new java.awt.Color(102, 0, 0));
         sendNotification.setText("Send Notification");
@@ -70,7 +73,7 @@ public class AdminPortal extends javax.swing.JFrame {
             }
         });
 
-        back.setBackground(new java.awt.Color(255, 204, 204));
+        back.setBackground(new java.awt.Color(255, 255, 204));
         back.setFont(new java.awt.Font("Segoe UI Black", 1, 12)); // NOI18N
         back.setForeground(new java.awt.Color(102, 0, 0));
         back.setText("back");
@@ -92,7 +95,9 @@ public class AdminPortal extends javax.swing.JFrame {
                         .addGap(154, 154, 154)
                         .addComponent(title2))
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(418, 418, 418)
+                        .addGap(21, 21, 21)
+                        .addComponent(Image2, javax.swing.GroupLayout.PREFERRED_SIZE, 379, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
                         .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(registerCitizen, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(viewFeedBacks, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -106,13 +111,19 @@ public class AdminPortal extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(back)
                     .addComponent(title2, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(81, 81, 81)
-                .addComponent(registerCitizen)
-                .addGap(42, 42, 42)
-                .addComponent(viewFeedBacks)
-                .addGap(44, 44, 44)
-                .addComponent(sendNotification)
-                .addContainerGap(268, Short.MAX_VALUE))
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(Image2, javax.swing.GroupLayout.DEFAULT_SIZE, 501, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addGap(81, 81, 81)
+                        .addComponent(registerCitizen)
+                        .addGap(42, 42, 42)
+                        .addComponent(viewFeedBacks)
+                        .addGap(44, 44, 44)
+                        .addComponent(sendNotification)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -189,6 +200,7 @@ public class AdminPortal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Image2;
     private javax.swing.JButton back;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JButton registerCitizen;

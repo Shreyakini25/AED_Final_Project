@@ -40,8 +40,11 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
 
         title.setBackground(new java.awt.Color(204, 204, 255));
 
-        jLabel1.setText("Grievance Enterprise");
+        jLabel1.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 102, 102));
+        jLabel1.setText("GRIEVANCE ENTERPRISE");
 
+        btnStreetLight.setBackground(new java.awt.Color(255, 204, 204));
         btnStreetLight.setText("Street Light ");
         btnStreetLight.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -49,6 +52,7 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
             }
         });
 
+        btnGarbageCollection.setBackground(new java.awt.Color(255, 204, 204));
         btnGarbageCollection.setText("Garbage Collection");
         btnGarbageCollection.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -56,6 +60,7 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
             }
         });
 
+        exitButton.setBackground(new java.awt.Color(255, 204, 204));
         exitButton.setText("exit");
         exitButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -63,6 +68,7 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
             }
         });
 
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setText("back");
         back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -88,7 +94,7 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
                             .addGroup(titleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(btnGarbageCollection, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(btnStreetLight, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
-                .addContainerGap(168, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
         titleLayout.setVerticalGroup(
             titleLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -103,7 +109,7 @@ public class GrievanceEnterprise extends javax.swing.JFrame {
                 .addComponent(btnGarbageCollection)
                 .addGap(32, 32, 32)
                 .addComponent(exitButton)
-                .addContainerGap(126, Short.MAX_VALUE))
+                .addContainerGap(123, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

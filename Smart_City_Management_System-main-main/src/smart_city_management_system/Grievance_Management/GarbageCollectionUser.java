@@ -47,7 +47,9 @@ public class GarbageCollectionUser extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
-        lblTitle.setText("Garbage Collection Complaint");
+        lblTitle.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
+        lblTitle.setForeground(new java.awt.Color(255, 102, 102));
+        lblTitle.setText("GARBAGE COLLECTION");
 
         lblname.setText("Name:");
 
@@ -59,6 +61,7 @@ public class GarbageCollectionUser extends javax.swing.JFrame {
 
         ComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Household", "Commercial", "Industrial", "Other" }));
 
+        back.setBackground(new java.awt.Color(255, 204, 204));
         back.setText("back");
         back.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,6 +69,7 @@ public class GarbageCollectionUser extends javax.swing.JFrame {
             }
         });
 
+        submit.setBackground(new java.awt.Color(255, 204, 204));
         submit.setText("submit");
         submit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,7 +104,7 @@ public class GarbageCollectionUser extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(133, 133, 133)
                         .addComponent(submit)))
-                .addContainerGap(107, Short.MAX_VALUE))
+                .addContainerGap(53, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -127,7 +131,7 @@ public class GarbageCollectionUser extends javax.swing.JFrame {
                     .addComponent(ComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(29, 29, 29)
                 .addComponent(submit)
-                .addContainerGap(156, Short.MAX_VALUE))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

@@ -40,11 +40,11 @@ public class ViewPatient extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         Title.setBackground(new java.awt.Color(255, 255, 255));
         Title.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        Title.setForeground(new java.awt.Color(255, 255, 204));
+        Title.setForeground(new java.awt.Color(255, 102, 102));
         Title.setText("VIEW PATIENTS HERE");
 
         back.setBackground(new java.awt.Color(255, 255, 204));

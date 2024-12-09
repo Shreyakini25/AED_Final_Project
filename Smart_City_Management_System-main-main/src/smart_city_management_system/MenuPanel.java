@@ -31,11 +31,11 @@ public class MenuPanel extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(204, 204, 255));
 
         title.setBackground(new java.awt.Color(255, 255, 255));
         title.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title.setForeground(new java.awt.Color(255, 255, 204));
+        title.setForeground(new java.awt.Color(255, 102, 102));
         title.setText("WELCOME TO SMART CITY MANAGEMENT SYSTEM");
 
         Image.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/SMART CITY (1).png"))); // NOI18N
@@ -73,7 +73,7 @@ public class MenuPanel extends javax.swing.JFrame {
         tourismManagement.setBackground(new java.awt.Color(255, 255, 204));
         tourismManagement.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         tourismManagement.setForeground(new java.awt.Color(102, 0, 0));
-        tourismManagement.setText("Tourism Management ");
+        tourismManagement.setText("Grievance Management ");
         tourismManagement.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 tourismManagementActionPerformed(evt);

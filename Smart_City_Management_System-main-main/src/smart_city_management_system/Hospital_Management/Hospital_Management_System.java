@@ -24,16 +24,16 @@ public class Hospital_Management_System extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel3.setBackground(new java.awt.Color(102, 0, 0));
+        jPanel3.setBackground(new java.awt.Color(204, 204, 255));
 
         title2.setBackground(new java.awt.Color(255, 255, 255));
         title2.setFont(new java.awt.Font("Rockwell", 1, 18)); // NOI18N
-        title2.setForeground(new java.awt.Color(255, 255, 204));
+        title2.setForeground(new java.awt.Color(255, 102, 102));
         title2.setText("WELCOME TO HOSPITAL  MANAGEMENT SYSTEM");
 
         Image2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/smart_city_management_system/Hospital Management (3).png"))); // NOI18N
 
-        AddPatient.setBackground(new java.awt.Color(255, 255, 204));
+        AddPatient.setBackground(new java.awt.Color(255, 204, 204));
         AddPatient.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         AddPatient.setForeground(new java.awt.Color(102, 0, 0));
         AddPatient.setText("Add Patient");
@@ -43,7 +43,7 @@ public class Hospital_Management_System extends javax.swing.JFrame {
             }
         });
 
-        ViewPatient.setBackground(new java.awt.Color(255, 255, 204));
+        ViewPatient.setBackground(new java.awt.Color(255, 204, 204));
         ViewPatient.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         ViewPatient.setForeground(new java.awt.Color(102, 0, 0));
         ViewPatient.setText("View Patient");
@@ -53,7 +53,7 @@ public class Hospital_Management_System extends javax.swing.JFrame {
             }
         });
 
-        exit.setBackground(new java.awt.Color(255, 255, 204));
+        exit.setBackground(new java.awt.Color(255, 204, 204));
         exit.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         exit.setForeground(new java.awt.Color(102, 0, 0));
         exit.setText("Exit");
@@ -73,7 +73,7 @@ public class Hospital_Management_System extends javax.swing.JFrame {
             }
         });
 
-        AddDoctor.setBackground(new java.awt.Color(255, 255, 204));
+        AddDoctor.setBackground(new java.awt.Color(255, 204, 204));
         AddDoctor.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         AddDoctor.setForeground(new java.awt.Color(102, 0, 0));
         AddDoctor.setText("Add Doctor");
@@ -83,7 +83,7 @@ public class Hospital_Management_System extends javax.swing.JFrame {
             }
         });
 
-        ViewDoctor.setBackground(new java.awt.Color(255, 255, 204));
+        ViewDoctor.setBackground(new java.awt.Color(255, 204, 204));
         ViewDoctor.setFont(new java.awt.Font("Segoe UI Black", 1, 18)); // NOI18N
         ViewDoctor.setForeground(new java.awt.Color(102, 0, 0));
         ViewDoctor.setText("View Doctor");
